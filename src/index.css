@@ -1,0 +1,25 @@
+#button{
+  border-radius: 5px;
+  background-color: #1F316F;
+  color: white;
+}
+#button:hover{
+  background-color:red;
+  color: rgb(23, 21, 19);
+}
+#navbox{
+   margin-left: 30%;
+  margin-top: 5%;
+  padding-top: 50px;
+  
+}
+form input{
+  border: 'none';
+  border-radius: 5px;
+  font-weight: bold;
+}
+.mail{
+    width:'50%';
+    height:'50%' ;
+}
+
