@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 function Navbar({productReducer:{cartItems}}){
    return(
        <div>
-           <nav class="navbar navbar-expand-lg " style={{background:'#507687'}}>
+           <nav class="navbar navbar-expand-lg fixed-top " style={{background:'#507687'}}>
  <div class="container-fluid " >
    <a class="navbar-brand" href="./Registion Form" style={{color:'white'}}>Registation Form</a>
    <a class="navbar-brand" href="/Registation Form Details" style={{color:'white'}}> Registation Details</a>

@@ -3,13 +3,7 @@ import { connect } from "react-redux";
 function Cart({productReducer:{cartItems},dispatch}){
     return(
         <div className="container">
-            <table className="table table-striped p-2">
-                <thead>
-                  <th className="p-2">Title</th>
-                  <th className="p-2">price</th>
-                  <th className="p-2">volume</th>
-                 <th className="p-2"> Total Price</th>
-                </thead>
+            <table className="table table-striped p-2" style={{marginTop:'8%'}}>
                 <tbody>
                    {
                    

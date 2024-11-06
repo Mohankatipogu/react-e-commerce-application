@@ -21,7 +21,7 @@ import Counter from './components/counter';
 import Contact from "./components/contactform";
 import Cart from "./components/cart";
 import Product from "./components/Product";
-
+import Submit from "./components/submitform";
 const router = createBrowserRouter([
   {
     path:'/',
@@ -72,6 +72,10 @@ const router = createBrowserRouter([
       {
         path:'/cart',
         element:<Cart></Cart>
+      },
+      {
+        path:"/submitform",
+        element:<Submit></Submit>
       }
     ]
   }
